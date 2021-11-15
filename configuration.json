@@ -1,17 +1,17 @@
 {
     "tool": "git",
     "url": "https://github.com/uncomfyhalomacro/dotfiles",
-	"river": "/home/uncomfy/.config/river",
-	"yambar": "/home/uncomfy/.config/yambar",
-	"foot": "/home/uncomfy/.config/foot",
-	"mako": "/home/uncomfy/.config/mako",
-	"[bin]": {
-		"mygrimshot.sh": "/home/uncomfy/.local/bin/mygrimshot.sh",
-		"wayriver.sh": "/home/uncomfy/.local/bin/wayriver.sh",
-		"footq": "/home/uncomfy/.local/bin/footq",
-		"tmx": "/home/uncomfy/.local/bin/tmx",
-		"manbat": "/home/uncomfy/.local/bin/manbat",
-		"river-run.sh": "/home/uncomfy/.local/bin/river-run.sh"
-	},
+    "river": "/home/uncomfy/.config/river",
+    "yambar": "/home/uncomfy/.config/yambar",
+    "foot": "/home/uncomfy/.config/foot",
+    "mako": "/home/uncomfy/.config/mako",
+    "[bin]": {
+        "mygrimshot.sh": "/home/uncomfy/.local/bin/mygrimshot.sh",
+        "wayriver.sh": "/home/uncomfy/.local/bin/wayriver.sh",
+        "footq": "/home/uncomfy/.local/bin/footq",
+        "tmx": "/home/uncomfy/.local/bin/tmx",
+        "manbat": "/home/uncomfy/.local/bin/manbat",
+        "river-run.sh": "/home/uncomfy/.local/bin/river-run.sh"
+    },
     "args": "--recursive"
 }
