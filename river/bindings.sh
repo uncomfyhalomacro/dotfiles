@@ -178,6 +178,14 @@ do
 
 done
 
+# Touchpad
+
+touchpad_device=$(riverctl list-inputs | grep -i touchpad)
+riverctl input $touchpad_device events enabled
+riverctl input $touchpad_device natural-scroll enabled
+riverctl input $touchpad_device tap enabled
+riverctl input $touchpad_device tap-button-map left-right-middle
+
 # Control pulse audio volume with pamixer (https://github.com/cdemoulins/pamixer)
 riverctl map normal None XF86AudioRaiseVolume  spawn 'pamixer -i 5'
 riverctl map normal None XF86AudioLowerVolume  spawn 'pamixer -d 5'
