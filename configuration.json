@@ -1,4 +1,6 @@
 {
+    "tool": "git",
+    "url": "https://github.com/uncomfyhalomacro/dotfiles",
 	"river": "/home/uncomfy/.config/river",
 	"yambar": "/home/uncomfy/.config/yambar",
 	"foot": "/home/uncomfy/.config/foot",
@@ -10,5 +12,6 @@
 		"tmx": "/home/uncomfy/.local/bin/tmx",
 		"manbat": "/home/uncomfy/.local/bin/manbat",
 		"river-run.sh": "/home/uncomfy/.local/bin/river-run.sh"
-	}
+	},
+    "args": "--recursive"
 }
