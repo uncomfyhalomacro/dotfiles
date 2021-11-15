@@ -36,10 +36,10 @@ riverctl background-color 0x1d2021
 #riverctl focus-follows-cursor normal
 
 # User defined services `runsvdir`
-#pgrep -f "^runsvdir ${SVDIR}" &&
-    #echo "service is already running..."
-
-#exec runsvdir ${SVDIR} \
-    #"log: ..........................................."
+pgrep -f "^runsvdir ${SVDIR}" &&
+    echo "service is already running..."
+sleep 2s
+exec runsvdir ${SVDIR} \
+    "log: ..........................................."
 
 
