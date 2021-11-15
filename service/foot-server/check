@@ -1,0 +1,4 @@
+#!/bin/sh
+
+[ -S "${FOOT_SOCK}" ] && exit 0
+exit 1

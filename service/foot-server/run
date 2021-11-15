@@ -1,0 +1,4 @@
+#!/bin/sh
+
+exec foot --server="${FOOT_SOCK}" --print-pid=3 > /dev/null
+

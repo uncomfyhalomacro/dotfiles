@@ -1,0 +1,4 @@
+#!/bin/sh
+
+[ -S "${SSH_AUTH_SOCK}" ] && exit 0
+exit 1 
