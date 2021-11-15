@@ -1,0 +1,14 @@
+#!/bin/sh
+# this service is experimental and most setups should start pipewire as a user,
+# for further information, please refer to the handbook
+exec 2>&1
+if test -z "${XDG_RUNTIME_DIR}"; then
+	export XDG_RUNTIME_DIR=/tmp/`id -u`-runtime-dir
+	if ! test -d "${XDG_RUNTIME_DIR}"; then
+		mkdir "${XDG_RUNTIME_DIR}"
+		chmod 700 "${XDG_RUNTIME_DIR}"
+	fi
+
+fi
+
+exec pipewire

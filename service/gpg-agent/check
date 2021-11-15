@@ -1,0 +1,3 @@
+#!/bin/sh
+
+[ -n "$(pgrep -x gpg-agent)" ] && exit 

@@ -1,0 +1,4 @@
+#!/bin/sh
+
+rm -f "${SSH_AUTH_SOCK}"/ssh-agent.sock
+exit 0
