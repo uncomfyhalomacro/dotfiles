@@ -20,7 +20,9 @@ function colorpicker {
 }
 
 alias flatpak-list="flatpak list --columns=application | tail -n +1"
-alias xbps-list-pkg="xbps-query -l | awk '{ print $2 }' | xargs -n1 xbps-uhelper getpkgname"
+function xbps-list-pkg {
+    xbps-query -l | awk '{ print $2 }' | xargs -n1 xbps-uhelper getpkgname
+}
 alias ls="exa --icons --group-directories-first --sort=extension $@"
 alias ll="exa -l --icons --long --header --inode --git --group-directories-first --sort=extension $@"
 alias cd="z $@"
