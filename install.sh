@@ -31,7 +31,7 @@ if [[ $answer == "y" ]] || [[ $answer == "Y" ]]; then
     cp -fv $SCRIPT_DIR/bin/footq $HOME/.local/bin/footq
     cp -fv $SCRIPT_DIR/bin/manbat $HOME/.local/bin/manbat
     cp -rLpT $SCRIPT_DIR/service $HOME/service 
-    for i in {.zshrc,.zprofile}; do 
+    for i in {.zshrc,.zprofile,.zlogin,.zshenv}; do 
         cp -rfv $i $HOME/${i}
     done
     echo "Done copying configs"
