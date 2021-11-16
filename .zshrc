@@ -19,12 +19,11 @@ function colorpicker {
 	grim -g "$(slurp -p)" -t ppm - | convert - -format '%[pixel:p{0,0}]' txt:-
 }
 
+alias flatpak-list="flatpak list --columns=application | tail -n +1"
+alias xbps-list-pkg="xbps-query -l | awk '{ print $2 }' | xargs -n1 xbps-uhelper getpkgname"
 alias ls="exa --icons --group-directories-first --sort=extension $@"
 alias ll="exa -l --icons --long --header --inode --git --group-directories-first --sort=extension $@"
 alias cd="z $@"
-#eval $(dircolors ~/.dir_colors)
-
-alias luamake=/home/uncomfy/Downloads/lua-language-server/3rd/luamake/luamake
 
 export GPG_TTY=$(tty)
 

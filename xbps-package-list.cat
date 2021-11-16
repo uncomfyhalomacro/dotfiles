@@ -42,6 +42,7 @@ cantarell-fonts
 cargo
 cava
 celt
+clang
 colord-devel
 coreutils
 cpio
@@ -153,6 +154,8 @@ gnome-themes-extra
 gnome-themes-standard-metacity
 gnupg
 gnupg2
+gnuplot
+gnuplot-common
 gnutls
 go
 graphite
@@ -273,6 +276,7 @@ libcap-progs
 libcddb
 libcdio
 libcdio-paranoia
+libclang
 libclang-cpp
 libclc
 libcolord
@@ -389,6 +393,7 @@ libpostproc
 libproxy
 libpsl
 libpulseaudio
+libqalculate
 libraqm
 libreadline8
 librsvg
@@ -584,6 +589,8 @@ python3
 python3-Pygments
 python3-pip
 python3-setuptools
+qalculate
+qalculate-gtk
 qt5-core
 qt5-dbus
 qt5-gui

@@ -1,0 +1,10 @@
+com.bitwarden.desktop
+com.discordapp.Discord
+com.github.Eloston.UngoogledChromium
+com.github.Eloston.UngoogledChromium.Codecs
+com.spotify.Client
+org.freedesktop.Platform
+org.freedesktop.Platform.GL.default
+org.freedesktop.Platform.VAAPI.Intel
+org.freedesktop.Platform.openh264
+org.gtk.Gtk3theme.Adwaita-dark
