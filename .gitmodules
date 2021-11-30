@@ -1,0 +1,4 @@
+[submodule "river-config"]
+	path = river-config
+	url = https://github.com/uncomfyhalomacro/river-paper-dark-theme
+	branch = opensuse-edition
