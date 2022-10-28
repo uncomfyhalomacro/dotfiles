@@ -4,6 +4,5 @@
 # while pgrep -x wbg >/dev/null; do sleep 1; done
 # exec wbg "$HOME/Projects/river-paper-dark-theme/river/ocean.jpg"
 #
-killall -q swaybg
-while pgrep -x swaybg >/dev/null; do sleep 1; done
-swaybg -i "$HOME"/.config/river/backgrounds/autumn_has_come.jpg -m fill &
+swww init
+swww img "$HOME/.config/river/backgrounds/yor-forger.gif"
